@@ -14,7 +14,7 @@ body{
 }
 
 #navegacao a{
-    color: #abb8c3;
+    color: #a4b7c7;
     text-decoration: none;
     padding: 5px;
     font-size: 1.2rem;
@@ -97,6 +97,14 @@ p{
 
 #sobre{
     margin: 20px;
+}
+
+li:hover, button:hover{
+    border: 1px solid #fcf5f5;
+    box-shadow: 0px 0px 2px 1px #000000;
+    cursor: pointer;
+    border-radius: 8px;
+    background: #054b8d;
 }
 
 footer h3{
