@@ -585,7 +585,7 @@ const vestidos = [
         modelo: "Sapato Noivo",
         nome:"Preto Prata",
         valor: 530,
-        imagem: "./img/sapato noivo/sapato 9.jpg",
+        imagem: "./img/sapato noivo/Sapato 9.jpg",
     },
     {
         id: "85",
