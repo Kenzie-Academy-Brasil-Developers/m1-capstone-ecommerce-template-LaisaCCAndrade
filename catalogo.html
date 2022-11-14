@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/icon.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,300&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/catalogo.css">
+    <script src="./js/database.js" defer></script>
+    <script src="./js/index.js" defer></script>
+    <title>Catálogo</title>
+</head>
+<body>
+    <header>
+        <h1 id="home">Ateliê Love Story</h1>
+        <nav id="navegacao">
+           <ul>
+            <li>
+                <a href="./index.html">Home</a>
+            </li>
+            <li>
+                <a href="#vestidos">Vestidos de Noiva</a>
+            </li>
+            <li>
+                <a href="#6">Véus</a>
+            </li>
+            <li>
+                <a href="#16">Acessórios</a>
+            </li>
+            <li>
+                <a href="#31">Sapatos da Noiva</a>
+            </li>
+            <li>
+                <a href="#41">Ternos</a>
+            </li>
+            <li>
+                <a href="#51">Gravatas</a>
+            </li>
+            <li>
+                <a href="#61">Relógios</a>
+            </li>
+            <li>
+                <a href="#71">Sapatos do Noivo</a>
+            </li>
+           </ul> 
+        </nav>
+    </header>
+    <main>
+        <section class="secaoNoivas">
+            <div>
+                <ul id="vestidos" class="vestidos"></ul>
+            </div>
+            <div>
+                <button class="pesquisar" for="pesquisar">Pesquisar <input class="pesq" type="text" id="pesquisar" placeholder="Digite sua pesquisa"></button>
+
+                <div class="pesquisa">
+                    <h2 class="carrinho">Carrinho de compras</h2>
+                    <ul id="listaCompras"></ul>
+                </div>
+
+                <div class="totalCompra">
+                    <p>Quantidade:<small id="quantidade">(0)</small></p>
+                    <span id="total">Valor total:</span>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h2><a class="volte" href="#home">Voltar ao topo</a></h2>
+    </footer>
+</body>
+</html>
