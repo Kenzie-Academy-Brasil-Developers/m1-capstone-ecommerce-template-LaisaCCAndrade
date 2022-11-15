@@ -59,6 +59,7 @@ for(let j = 0; j < produtoCar.length; j++)
     botao.addEventListener('click', function(e)
     {
         let produto = e.target;
+    
         let idProduto = produto.id;
 
         let id = idProduto
